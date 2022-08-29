@@ -31,6 +31,12 @@ View your ```${HOME}/.bashrc``` and at the bottom, the install should have added
  
 So you can either run ```source ${HOME}/.bashrc``` or ```source /home/IamDeveloper/.wasmedge/env``` directly.  
   
+To verify, run:  
+```
+wasmedge -v
+```
+<br/>  
+
   
 ## Install Wasmtime  
   
@@ -64,7 +70,13 @@ export PATH="$WASMTIME_HOME/bin:$PATH"
  
 Run ```source ${HOME}/.bashrc```.  
   
+To verify, run:
+```
+wasmtime --version
+```
+<br/>
   
+
 ## Install Wasmer  
   
 ```
@@ -125,6 +137,12 @@ export WASMER_DIR="/home/IamDeveloper/.wasmer"
  
 Run ```source ${HOME}/.bashrc```.  
   
+To verify, run:
+```
+wasmer --help
+```
+  
+
   
 
   
